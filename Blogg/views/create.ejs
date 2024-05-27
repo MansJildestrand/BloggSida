@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skapa nytt inlägg</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <h1>Skapa nytt inlägg</h1>
+    <form action="/create" method="POST">
+        <label for="title">Titel:</label><br>
+        <input type="text" id="title" name="title"><br>
+        <label for="content">Innehåll:</label><br>
+        <textarea id="content" name="content"></textarea><br>
+        <button type="submit">Skicka</button>
+    </form>
+    <a href="/">Tillbaka till startsidan</a>
+</body>
+</html>
